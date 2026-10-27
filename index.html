@@ -318,7 +318,21 @@
         </div>
     </div>
 </section>
+<form action="https://api.web3forms.com/submit" method="POST">
+    
+    <!-- Replace this value with the key sent to your email -->
+    <input type="hidden" name="access_key" value="f1b21374-9711-4f76-8c6a-6d6a04826464">
+    
+    <!-- Customer Details -->
+    <input type="text" name="name" placeholder="Client Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    
+    <!-- Optional: Add a custom success message or redirect -->
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
+    <button type="submit">Request Site Visit</button>
+
+</form>
      <!-- Contact & Location Section -->
 <section id="contact" class="section-padding">
     <div class="container">
